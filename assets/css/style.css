@@ -51,7 +51,6 @@ h6 {
   clear: both;
   color: #FEFEFE;
   padding: 0;
-  margin: 0 0 20px 0;
   font-weight: 600;
   line-height: 1.3em;
   font-family: 'Poppins', sans-serif;
@@ -4385,7 +4384,7 @@ ul:not(.cs-mega_wrapper)
 }
 
 .cs-menu_widget li:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .cs-text_widget p {
@@ -5998,7 +5997,7 @@ ul:not(.cs-mega_wrapper)
 .cs-iconbox_3_list .cs-image_layer {
   position: absolute;
   left: 0;
-  top: 25px;
+  top: 50px;
   pointer-events: none;
   max-width: 416px;
   height: 600px;
@@ -6091,7 +6090,6 @@ ul:not(.cs-mega_wrapper)
 
 .cs-iconbox.cs-style3 .cs-iconbox_title {
   font-size: 30px;
-  margin-bottom: 15px;
 }
 
 .cs-iconbox.cs-style3 .cs-iconbox_subtitle {
@@ -6229,7 +6227,7 @@ ul:not(.cs-mega_wrapper)
   height: 100%;
   border-radius: inherit;
   background: #000000;
-  opacity: 0.9;
+  opacity: 1;
   border:2px solid #fff;
 }
 
@@ -6249,9 +6247,8 @@ ul:not(.cs-mega_wrapper)
 }
 
 .cs-card.cs-style1 .cs-card_title {
-  font-size: 16px;
-  margin: 0;
-  line-height: 1.5em;
+  font-size: 15px;
+  margin: 10px 0px 0px 0px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -8148,3 +8145,7 @@ ul:not(.cs-mega_wrapper)
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+img.card-img {
+  width: 50px!important;
+}
